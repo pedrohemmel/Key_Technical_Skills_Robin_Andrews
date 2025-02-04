@@ -3,7 +3,7 @@ import stack
 def reverse_string(my_string):
     reversed_string = ""
 
-    s = Stack()
+    s = stack.Stack()
 
     for char in my_string:
         s.push(char)
